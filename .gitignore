@@ -1,0 +1,67 @@
+# ==============================================================================
+# Git Ignore Rules for Credit Card Transaction Fraud Detection (ADP Project)
+# IEEE-CIS Fraud Detection Benchmark Dataset & Model Artifact Rules
+# ==============================================================================
+
+# Large IEEE-CIS Dataset Files & Data Tables
+train_transaction.csv
+train_identity.csv
+test_transaction.csv
+test_identity.csv
+sample_submission.csv
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Data Directories & Big Files
+data/
+datasets/
+outputs/
+predictions/
+models/
+checkpoints/
+logs/
+.dist/
+
+# Model Checkpoints & Trained Artifacts
+*.pth
+*.pt
+*.onnx
+*.bin
+*.model
+*.ckpt
+*.h5
+*.hdf5
+*.joblib
+*.gbtree
+
+# Data Archives & Compressed Files
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+
+# Python Execution & Environment Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+venv/
+env/
+ENV/
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
