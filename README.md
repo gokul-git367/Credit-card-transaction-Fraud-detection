@@ -7,7 +7,7 @@ stacking ensemble, and uses SHAP to explain the strongest model.
 
 ## Project Status
 
-The weekly progress report records the following workflow:
+The weekly progress report :
 
 1. Clean transaction data and handle missing values.
 2. Build time-based, statistical, and card-behaviour features.
