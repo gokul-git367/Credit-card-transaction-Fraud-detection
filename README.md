@@ -1,6 +1,6 @@
-# Credit Card Transaction Fraud Detection (ADP Project)
+# Credit Card Transaction Fraud Detection 
 
-An **Advanced Data Analytics & Processing (ADP)** project for detecting fraudulent
+An **Advanced Data Analytics & Processing** project for detecting fraudulent
 credit card transactions. The current work compares LightGBM, a bidirectional GRU,
 and an FT-Transformer, combines their predictions with a logistic-regression
 stacking ensemble, and uses SHAP to explain the strongest model.
